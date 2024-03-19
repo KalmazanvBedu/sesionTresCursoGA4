@@ -221,7 +221,7 @@
 
 .DescripcionConocenos{
     width: 80%;
-    height: 80%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,8 +252,8 @@
 }
 
 .listasecciontres{
-    list-style-type: decimal;
     list-style: circle;
+    font-weight: 900;
     /* background-color: aqua; */
 }
 
