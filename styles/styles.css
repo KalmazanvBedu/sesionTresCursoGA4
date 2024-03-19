@@ -81,7 +81,7 @@
 
 
 .contenedorContenidoSeccionUno{
-    border: solid 5px red;
+    /* border: solid 5px red; */
     height: 90%;
     display: flex;
     background-image: url("https://img.freepik.com/foto-gratis/empresario-escribiendo-laptop-paisaje-urbano-iluminado-generado-ia_188544-26183.jpg?t=st=1710822019~exp=1710825619~hmac=a2cf5f227024bdd387c6d9dff6cac9a9ff59d233969c3fc6cd77bb0ba5b098e8&w=996");
@@ -95,7 +95,7 @@
     /* border: solid 5px red; */
     height: 90%;
     display: flex;
-    background-image: url("https://media.istockphoto.com/id/1143055696/es/foto/close-up-manager-hombre-escribiendo-a-mano-en-el-ordenador-port%C3%A1til-del-teclado-para-trabajar.jpg?s=1024x1024&w=is&k=20&c=CG6d6Ekb0NjmIwpUU5xggKoxO8ulQGY110hZLzanVI4=");
+    background-image: url("https://aldeaeducativamagazine.com/wp-content/uploads/2017/11/pc-1605658_1280.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
     background-position: center;
@@ -105,7 +105,7 @@
 .contenedorVentajas{
     height: 100%;
     width: 50%;
-    border: solid 5px green;
+    /* border: solid 5px green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@
 .contVentNivUno{
     width: 80%;
     height: 80%;
-    border: solid 5px orange;
+    /* border: solid 5px orange; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +133,7 @@
 .contVentNivUnoIconos{
     width: 30%;
     height: 100%;
-    border: solid 5px blue;
+    /* border: solid 5px blue; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -146,13 +146,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border:solid 5px purple;
+    /* border:solid 5px purple; */
 }
 
 .contVentNivUnoTextos{
     width: 70%;
     height: 100%;
-    border: solid 5px red;
+    /* border: solid 5px red; */
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -161,7 +161,7 @@
 .contTextoVentaja{
     height: 20%;
     width: 100%;
-    border: solid 2px pink;
+    /* border: solid 2px pink; */
     display: flex;
     justify-content: start;
     align-items: center;
@@ -189,4 +189,19 @@
     font-weight: initial;
     paint-order:unset;
     /* border: solid 3px #000000; */
+}
+
+#botonSeccionDos{
+    background-color: #8A81F2;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: initial;
+    paint-order:unset;
+    /* border: solid 3px #000000; */
+}
+#botonSeccionDos:hover{
+    font-weight: bold
 }
