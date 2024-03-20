@@ -95,7 +95,7 @@
     /* border: solid 5px red; */
     height: 90%;
     display: flex;
-    background-image: url("https://media.istockphoto.com/id/1143055696/es/foto/close-up-manager-hombre-escribiendo-a-mano-en-el-ordenador-port%C3%A1til-del-teclado-para-trabajar.jpg?s=1024x1024&w=is&k=20&c=CG6d6Ekb0NjmIwpUU5xggKoxO8ulQGY110hZLzanVI4=");
+    background-image: url("https://aldeaeducativamagazine.com/wp-content/uploads/2017/11/pc-1605658_1280.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
     background-position: center;
@@ -191,6 +191,7 @@
     /* border: solid 3px #000000; */
 }
 
+/*EQUIPO2*/
 .conocenosvideoboton{
     display: flex;
     width: 100%;
@@ -242,6 +243,9 @@
 .botonconocenos{
     background-color: #ffffff;
     color: #000000;
+#botonSeccionDos{
+    background-color: #8A81F2;
+    color: #ffffff;
     font-size: 2rem;
     padding: 20px;
     border-radius: 20px;
@@ -250,6 +254,7 @@
     paint-order:unset;
     /* border: solid 3px #000000; */
 }
+/*EQUIPO2*/
 
 .contenedorContenidoSeccionTres{
     /* border: solid 5px red; */
@@ -304,4 +309,7 @@
     justify-content: center;
     font-size: 1.5rem;
     font-family: Verdana;
+
+#botonSeccionDos:hover{
+    font-weight: bold;
 }
