@@ -219,27 +219,15 @@
     align-items: center;
 }
 
-.DescripcionConocenos{
+.contenedorConocenos{
     width: 80%;
     height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     text-align: center;
     background-color: #9188FF;
-    list-style-type: georgian;
-    font-size: 5rem;
     border-radius: 20px;
-}
-
-.contenedorConocenos{
-    width: 80%;
-    height: 100%;
-    /* border: solid 5px orange; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .BloqueConocenos{
@@ -249,12 +237,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.listasecciontres{
-    list-style: circle;
-    font-weight: 900;
-    /* background-color: aqua; */
 }
 
 .botonconocenos{
@@ -278,4 +260,48 @@
     background-color: #000000;
     background-position: center;
     background-size: cover;
+}
+
+.listatres{
+    /* border: solid 2px blue; */
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: circle;
+    font-size: 1.5rem;
+}
+
+.titulo3{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Courier New';
+    font-weight: 900;
+}
+
+.primertexto3{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: Verdana;
+}
+
+.segundotexto3{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: Verdana;
 }
