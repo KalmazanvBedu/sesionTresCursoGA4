@@ -382,7 +382,7 @@
 
     .contenedorVentajasDos{
         height: 30%;
-        align-items: start;
+        align-items:first baseline;
     }
 
     .contenedorVentajasUno{
