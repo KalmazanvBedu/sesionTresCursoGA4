@@ -11,11 +11,13 @@
 }
 
 .seccionUno{
+    /* border: solid 10px #0f00b8; */
     width: 98.7vw;
     height: 100vh;
 }
 
 .espacioHeader{
+    /* border: #1f0fd0; */
     height: 10%;
     background-color: #000000;
 }
@@ -191,12 +193,22 @@
     /* border: solid 3px #000000; */
 }
 
+.contenedorMarcas {
+    height: 100%;
+    width: 100%;
+    /* border: solid 5px rgb(91, 150, 20); */
+}
+
 /*EQUIPO2*/
+.espacioHeader{
+    /* border: #1f0fd0; */
+    height: 10%;
+    background-color: #000000;
+}
 
 .seccionTres{
     width: 98.7vw;
     height: 100vh;
-    display: flex;
 }
 
 .contenedortres{
@@ -215,10 +227,29 @@
     width: 70%;
     height: 100%;
     /* border: solid 5px blue; */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+  }
+.contenedorMarcasSeccionTres{
+    /* border: solid 5px red; */
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://acerobsv.com/blog/img/post/tenochtitlan.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center;
+    background-size: 100%;
+    align-items: center
+}
+
+.botonSeccionTres{
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .video{
