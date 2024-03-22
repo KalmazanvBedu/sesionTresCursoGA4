@@ -10,12 +10,14 @@
     color: #ffffff;
 }
 
-.seccionUno{
+.seccionTres{
+    /* border: solid 10px #0f00b8; */
     width: 98.7vw;
     height: 100vh;
 }
 
 .espacioHeader{
+    /* border: #1f0fd0; */
     height: 10%;
     background-color: #000000;
 }
@@ -81,7 +83,7 @@
 
 
 .contenedorContenidoSeccionUno{
-    border: solid 5px red;
+    /* border: solid 5px red; */
     height: 90%;
     display: flex;
     background-image: url("https://img.freepik.com/foto-gratis/empresario-escribiendo-laptop-paisaje-urbano-iluminado-generado-ia_188544-26183.jpg?t=st=1710822019~exp=1710825619~hmac=a2cf5f227024bdd387c6d9dff6cac9a9ff59d233969c3fc6cd77bb0ba5b098e8&w=996");
@@ -190,3 +192,69 @@
     paint-order:unset;
     /* border: solid 3px #000000; */
 }
+.contenedorMarcas {
+    height: 100%;
+    width: 100%;
+    /* border: solid 5px rgb(91, 150, 20); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.contenedorMarcasSeccionTres{
+    /* border: solid 5px red; */
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://acerobsv.com/blog/img/post/tenochtitlan.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center;
+    background-size: 100%;
+    align-items: center
+}
+.botonSeccionTres{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: initial;
+    paint-order:unset;
+    /* border: solid 3px #000000; */
+}
+.contenedorLogoMarca{
+    width: 20%;
+    height: 100%;
+    /* background-color: #000000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: calc(20%);
+}
+.contenedorBotonSeccionTres{
+    /* border: solid 5px rgb(27, 117, 156); */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fila {
+    /* border: solid 5px rgb(109, 205, 246); */
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icono {
+    height: 90%;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
