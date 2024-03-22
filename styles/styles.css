@@ -273,65 +273,6 @@
     border-radius: 20px;
 }
 
-<<<<<<< HEAD
-=======
-.BloqueConocenos{
-    width: 30%;
-    height: 100%;
-    /* border: solid 5px yellow; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.botonconocenos{
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 15px;
-    padding: 10px;
-    border-style: none;
-}
-
-#botonSeccionDos{
-    background-color: #8A81F2;
-    color: #ffffff;
-    font-size: 2rem;
-    padding: 20px;
-    border-radius: 20px;
-    border-style: none;
-    font-weight: initial;
-    paint-order:unset;
-    /* border: solid 3px #000000; */
-}
-/*EQUIPO2*/
-
-.contenedorContenidoSeccionTres{
-    width: 100%;
-    /* border: solid 20px blue; */
-    height: 90%;
-    display: flex;
-    background-image: url("https://st2.depositphotos.com/6485672/10917/i/950/depositphotos_109172152-stock-photo-code-html-web-programming-background.jpg");
-    background-repeat: no-repeat;
-    background-color: #000000;
-    background-position: center;
-    background-size: cover;
-}
-
-.listatres{
-    /* border: solid 2px blue; */
-    width: 100%;
-    /* background-color: aquamarine; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    list-style-position: inside;
-    list-style-type: circle; 
-    font-size: .8rem;  
-}
-
-
->>>>>>> ad08d00b2ae4fa072d2bfa8fca3ccb78deb2a877
 .titulo3{
     width: 100%;
     display: flex;
@@ -374,39 +315,4 @@
     justify-content: center;
     font-size: .8rem;
     font-family: Verdana;
-<<<<<<< HEAD
-=======
-}
-
-#botonSeccionDos:hover, #botonconocenos:hover{
-    font-weight: bold;
-}
-
-@media screen and (max-width: 500px) {
-
-    .contenedorContenidoSeccionUno{
-        /* border: solid 5px red; */
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contenedorVentajas{
-        height: 50%;
-        width: 100%;
-        /* border: solid 5px green; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .fa-solid, .fa-brands{
-        font-size: 1.5rem;
-    }
-    
-    .textoVentaja{
-        font-size: .75rem;
-        padding: 5px;
-    }
-
->>>>>>> ad08d00b2ae4fa072d2bfa8fca3ccb78deb2a877
 }
