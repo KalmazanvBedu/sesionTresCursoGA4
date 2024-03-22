@@ -322,7 +322,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 501px) {
 
     .seccionUno{
         width: 100vw;
