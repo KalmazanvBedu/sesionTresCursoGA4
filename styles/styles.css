@@ -74,14 +74,17 @@
     align-items: center;
 }
 
+.enlace{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    /* z-index: -1;
+    opacity: .7; */
+}
+
 .enlace:hover, .botonSeccionUno:hover{
     font-weight: bold;
 }
-
-.item a{
-
-}
-
 
 .contenedorContenidoSeccionUno{
     /* border: solid 5px red; */
@@ -92,6 +95,7 @@
     background-color: #000000;
     background-position: center;
     background-size: cover;
+    z-index: -3;
 }
 
 .contenedorContenidoSeccionDos{
@@ -103,6 +107,7 @@
     background-color: #000000;
     background-position: center;
     background-size: cover;
+
 }
 
 .contenedorVentajas{
@@ -122,6 +127,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 .contVentNivUnoDos{
     background-color: #000000;
@@ -184,6 +190,7 @@
 
 .botonSeccionUno{
     background-color: #ffffff;
+    /* opacity: .7; */
     color: #000000;
     font-size: 2rem;
     padding: 20px;
@@ -240,7 +247,6 @@
     height: 90%;
     display: flex;
     flex-direction: column;
-    background-image: url("https://acerobsv.com/blog/img/post/tenochtitlan.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
     background-position: center;
@@ -380,7 +386,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("https://acerobsv.com/blog/img/post/tenochtitlan.jpg");
     background-repeat: no-repeat;
     /* background-color: #000000; */
     background-position: center;
@@ -494,7 +499,7 @@
 
 @media screen and (max-width: 501px) {
 
-    .seccionUno{
+    .seccionUno, .seccionTres, .seccionCuatro, .seccionCinco{
         width: 100vw;
         height: 100vh;
     }
@@ -508,7 +513,7 @@
         border-bottom: solid 3px #ffffff;
         opacity: .95;
         paint-order: initial;
-    
+        z-index: 101;
     }
 
     .contenedorLogoHead{
@@ -570,6 +575,163 @@
     .textoVentaja{
         font-size: .75rem;
         padding: 5px;
+    }
+
+
+/* Estilos responsivos sección 2 */
+
+    .contenedorContenidoSeccionDos{
+        flex-direction: column;
+        height: 75%;
+    }
+
+    .seccionCuatro{
+        background-color: #000000;
+    }
+
+    .contenedortres{
+        flex-direction: column;
+        height: 75%;
+        /* border: solid 4px gray; */
+    }
+
+    .videoconocenos{
+        /* border: solid 5px green; */
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .BloqueConocenos{
+        /* border: solid 3px orange; */
+        height: 50%;
+        width: 100%;
+    }
+
+    .video{
+        width: 90%;
+        height: 67%;
+        /* border: solid 5px blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .conocenosvideoboton{
+        width: 100%;
+        /* border: solid 3px orange; */
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: solid 2px red; */
+    }
+
+    .botonconocenos{
+        font-size: 1.1rem;
+        padding: 15px;
+        /* border: solid 3px #000000; */
+    }
+
+    .contenedorConocenos{
+        font-size: .5rem;
+        /* border: solid 3px red; */
+        width: 90%;
+        height: 90%;
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .titulo3{
+        font-size: 1rem;
+    }
+
+    .textoConocenos{
+        font-size: .7rem;
+        width: 95%;
+        /* border: solid 3px blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedorContenidoSeccionTres{
+        height: 75%;
+    }
+
+    .contenedorMarcasSeccionTres{
+        height: 70%;
+        /* border: solid 2px green; */
+    }
+
+    .contenedorMarcas{
+        /* border: solid 2px blue; */
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        /* background-image: linear-gradient(#000000 5%, #ffffff); */
+    }
+
+    .contenedorBotonSeccionTres{
+        /* border: solid 2px purple; */
+        /* background-image: linear-gradient(#ffffff,#000000 95%); */
+        height: 31%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fila{
+        /* border: solid 2px red; */
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorLogoMarca{
+        height: 20%;
+        width: 95%;
+    }
+
+    .contenedorLogoMarca img{
+        height: 85%;
+    }
+    
+    .botonClientes{
+        font-size: 1.1rem;
+        padding: 20px;
+    }
+
+    .contenedorFormulario{
+         /* border: solid 2px red;  */
+         height: 100%;
+    }
+
+    .contenedorRedes{
+        height: 100%;
+        width: 10%;
+        flex-direction: column;
+        background-color: #9188FF;
+    }
+
+    .cajaFormulario{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        background-color: #000000;
+        opacity: .92;
+        padding: 40px;
+    }
+
+    .contenedorContenidoSeccionCinco{
+        height: 75%;
+        flex-direction: row;
     }
 
 }
