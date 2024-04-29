@@ -314,6 +314,7 @@
     text-align: center;
     background-color: #9188FF;
     border-radius: 20px;
+    /* border: solid 2px red; */
 }
 
 .titulo3{
@@ -468,6 +469,7 @@
     background-color: #000000;
     opacity: .92;
     padding: 40px;
+    /* border: solid 5px green; */
 }
 
 .form-columns-2{
@@ -639,7 +641,7 @@
         font-size: .5rem;
         /* border: solid 3px red; */
         width: 90%;
-        height: 90%;
+        height: 70%;
         display: flex;
         /* flex-wrap: wrap; */
         flex-direction: column;
